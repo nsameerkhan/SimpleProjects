@@ -83,7 +83,6 @@ namespace studentdetails1
             int total = 0;
             foreach (KeyValuePair<string, int> d in s1)
                 {
-                    Console.WriteLine(d.Key + ":" + d.Value);
                     total = total + d.Value;
                 }
             return total;
